@@ -59,10 +59,4 @@ Aplikasi yang dibangun pada praktikum ini terdiri dari empat bagian berbeda, mas
 * Menambahkan rute '/settings' untuk SettingsScreen ✅ (modifikasi).
 * Aplikasi mampu membuka halaman SettingsScreen langsung melalui URL jika menggunakan integrasi dengan Flutter web atau URI.
 
-## ✅ Kesimpulan
-
-Praktikum ini memberikan pemahaman mendalam tentang berbagai pendekatan navigasi di Flutter, dari navigasi dasar hingga skenario kompleks seperti nested dan deep linking. Setiap bagian aplikasi dimodifikasi untuk mencerminkan fungsionalitas tambahan sesuai instruksi praktikum.
-
----
-
-Created for Flutter Navigation Practice ✨
+TERIMA KASIH
