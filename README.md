@@ -89,4 +89,5 @@ Berikut ini checklist pengujian aplikasi:
 Perhatikan konsol ketika:
 
 Menambahkan habit:
+
 ![WhatsApp Image 2025-06-03 at 22 38 05_a8a72c67](https://github.com/user-attachments/assets/94841f94-75d5-4389-81ba-d8e7c74518e8)
