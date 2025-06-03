@@ -8,7 +8,7 @@ Praktikum ini bertujuan untuk memahami dan mengimplementasikan berbagai jenis na
 * Navigasi versi Flutter 2.0
 * Navigasi bersarang (nested navigation)
 * Navigasi dengan deep linking
-
+ 
 ## 🔍 Deskripsi Aplikasi
 
 Aplikasi yang dibangun pada praktikum ini terdiri dari empat bagian berbeda, masing-masing mendemonstrasikan jenis navigasi tertentu:
