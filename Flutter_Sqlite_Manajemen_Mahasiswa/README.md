@@ -1,29 +1,3 @@
-# flutter_sqlite_manajemen_mahasiswa
-
-## Nama:
-Mahardika Rafaditya Dwi Putra Hastomo, NIM: 4522210146
-
-## Tujuan Praktikum:
-Mempelajari dan mengimplementasikan fitur manajemen data mahasiswa berbasis Flutter menggunakan SQLite (`sqflite`). Praktikum ini bertujuan untuk memahami penggunaan database lokal dalam aplikasi Flutter, serta membuat antarmuka pengguna CRUD (Create, Read, Update, Delete) yang terhubung dengan database SQLite.
-
-## Deskripsi Aplikasi:
-Aplikasi ini adalah sistem manajemen data mahasiswa sederhana. Fitur utama mencakup:
-- Halaman login untuk admin
-- Menampilkan daftar mahasiswa
-- Menambahkan data mahasiswa baru
-- Mengedit data mahasiswa
-- Menghapus data mahasiswa
-- Menyimpan data ke dalam database lokal (`students.db`) menggunakan `sqflite`
-
-## Screenshot Emulator:
-| Login Page | Tampilan Awal | Input Data | Data Ditambah |
-|------------|----------------|------------|---------------|
-| ![Login](assets/images/login_page.png) | ![Home](assets/images/tampilan_awal.png) | ![Input](assets/images/input_data.png) | ![Added](assets/images/data_ditambah.png) |
-
-| Edit Data | Setelah Edit | Konfirmasi Hapus | Data Dihapus |
-|-----------|---------------|-------------------|--------------|
-| ![Edit](assets/images/edit_data.png) | ![Edited](assets/images/setelah_edit.png) | ![Confirm](assets/images/konfirmasi_hapus.png) | ![Deleted](assets/images/data_dihapus.png) |
-
 ## Penjelasan Program:
 
 - Aplikasi ini dibuat menggunakan Flutter dan bahasa Dart.
