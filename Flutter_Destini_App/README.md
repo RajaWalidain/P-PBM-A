@@ -1,39 +1,75 @@
-# flutter_destini_app
+# 🌟 Destini App - Flutter Interactive Story App
 
-## Nama:
-Mahardika Rafaditya Dwi Putra Hastomo, NIM: 4522210146
+## 📌 Nama  
+**Raja Walidain**  
+_NIM: 4522210013_
 
-## Tujuan Praktikum:
-Mempelajari dan mengimplementasikan aplikasi cerita interaktif menggunakan Flutter. Praktikum ini bertujuan untuk memahami penggunaan `StatefulWidget`, pengelolaan logika bercabang (conditional navigation), serta pemisahan kode menjadi beberapa class untuk menjaga keteraturan dan modularitas.
+---
 
-## Deskripsi Aplikasi:
-Aplikasi ini merupakan aplikasi cerita interaktif berbasis pilihan ganda di mana pengguna menentukan alur cerita berdasarkan keputusan yang dipilih. Cerita akan bercabang sesuai pilihan pengguna, dan pada titik-titik tertentu cerita dapat berakhir dan aplikasi akan kembali ke awal.
+## 🎯 Tujuan Praktikum
 
-## Screenshot Emulator:
-![Screenshot1](assets/images/background.png)
-![Screenshot2](assets/images/destini_page.png)
+Proyek ini dibuat untuk:
 
-## Penjelasan Program:
-- Aplikasi dibangun dengan **Flutter** menggunakan bahasa pemrograman **Dart**.
-- Struktur kode dibagi menjadi 3 file utama:
-  - `main.dart`: Menangani UI utama, tampilan cerita, serta navigasi berdasarkan tombol.
-  - `story.dart`: Kelas model yang menyimpan data cerita dan dua pilihan jawaban.
-  - `story_brain.dart`: Menangani logika cerita dan navigasi percabangan.
-  
-- Logika Aplikasi:
-  - Cerita dimulai dari indeks ke-0 (`_storyNumber = 0`).
-  - Pilihan user (Choice 1 atau 2) akan mengubah alur cerita menggunakan fungsi `nextStory()`.
-  - Jika berada pada akhir cerita (index 3, 4, atau 5), aplikasi akan menampilkan tombol "Restart" dan menghilangkan tombol kedua.
-  - Fungsi `buttonShouldBeVisible()` digunakan untuk menyembunyikan tombol kedua saat tidak relevan.
+- Mempelajari konsep `StatefulWidget` dalam Flutter
+- Mengimplementasikan logika bercabang dalam aplikasi interaktif
+- Melatih keterampilan pemisahan kode menggunakan prinsip modular (OOP)
+- Membangun aplikasi cerita interaktif berbasis pilihan ganda
 
-- Fitur-fitur :
-  - Menggunakan widget `TextButton` untuk pilihan cerita.
-  - Tampilan dinamis menggunakan `Visibility` untuk mengatur kemunculan tombol.
-  - Latar belakang cerita menggunakan gambar dari `assets/images/background.png`.
-  - State dikelola menggunakan `setState()` dalam `StatefulWidget`.
+---
 
-## Cara Menjalankan Aplikasi:
+## 📱 Deskripsi Aplikasi
+
+**Destini App** adalah aplikasi cerita interaktif tempat pengguna menentukan alur cerita melalui pilihan yang tersedia. Cerita akan berkembang dan bercabang berdasarkan jawaban yang dipilih, hingga mencapai akhir yang berbeda-beda. Setelah cerita berakhir, pengguna dapat mengulang dari awal.
+
+---
+
+## 🛠️ Fitur Utama
+
+- 🎭 Cerita bercabang berdasarkan pilihan pengguna
+- 🧠 Logika alur cerita dikelola menggunakan class terpisah
+- 🖼️ Tampilan menarik dengan latar belakang bergambar
+- 👆 Navigasi menggunakan tombol pilihan (`TextButton`)
+- 👁️‍🗨️ Tombol kedua otomatis disembunyikan jika tidak diperlukan
+- 🔁 Tombol "Restart" untuk mengulang cerita dari awal
+
+---
+
+## 🗂️ Struktur Kode
+
+lib/
+├── main.dart # Tampilan utama & alur UI
+├── story.dart # Model data cerita (Story)
+└── story_brain.dart # Logika alur cerita & pilihan
+assets/
+└── images/
+├── background.png
+└── destini_page.png
+
+
+---
+
+## 🧠 Alur Logika Cerita
+
+- Cerita dimulai dari indeks ke-0 (`_storyNumber = 0`)
+- Fungsi `nextStory(int choice)` mengubah cerita berdasarkan pilihan
+- Jika mencapai akhir (index 3, 4, atau 5), tombol "Restart" akan tampil
+- Fungsi `buttonShouldBeVisible()` digunakan untuk mengontrol visibilitas tombol kedua
+
+---
+
+## 📸 Tampilan Aplikasi
+
+| Tampilan Awal | Pilihan Cerita |
+|---------------|----------------|
+| ![Screenshot1](assets/images/background.png) | ![Screenshot2](assets/images/destini_page.png) |
+
+---
+
+## ▶️ Cara Menjalankan Aplikasi
+
 ```bash
+# Install dependencies
 flutter pub get
-flutter run
 
+# Jalankan di emulator atau device
+flutter run
